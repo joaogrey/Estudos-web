@@ -1,0 +1,75 @@
+body,html{
+    min-height: 100%;
+} 
+body{
+    padding-top: 57px;
+    
+}
+
+.header{
+    margin-top: 0;
+    position: absolute;
+    width: 100%;
+    height: 57px;
+    background: #274059;
+    left: 0%;
+    right: -0.02%;
+    top: 0%;
+    bottom: -0.09%;
+
+}
+
+.header_title{
+    position: absolute;
+    height: 29px;
+    left: 72px;
+    top: calc(50% - 29px/2 + 0.27px);
+    
+    /* H6 / Roboto Medium */
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15px;
+    
+    color: #FAFAFA;
+}
+
+.card-panel{
+    height: 364px;
+    width: 527px;
+    margin-top: 160px;
+    padding: 0;
+    align-items: center;
+}
+
+.row{
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.header-card{
+    background-color: #274059;
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.header-card-text{
+    color: #FAFAFA;
+    padding: 16px o;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding-top: 16px;
+}
