@@ -2,48 +2,61 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="utf-8">
-    <title>Minerva</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link rel="stylesheet" href="css/style.css">
-
+  <meta charset="utf-8">
+  <title>Minerva</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/materialize.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/materialize.js"></script>
+  <script src="js/materialize.min.js"></script>
 </head>
 
 <body>
-    <header class="header">
-        <div class="header_title">
-            Minerva-login
-        </div>
-    </header>
-    <div class="row">
-
-        <div class="card-panel">
-            <div class="header-card">
-                <div class="header-card-text">
-                    Login
-                </div>
-            </div>
-            <div class="col">
-                <form class="row s12">
-                  <div class="col">
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix"></i>
-                      <input id="icon_prefix" type="text" class="validate">
-                      <label for="icon_prefix">Login</label>
-                    </div>
-                    <div class="input-field col s12">
-                      <i class="material-icons prefix"></i>
-                      <input id="icon_telephone" type="tel" class="validate">
-                      <label for="icon_telephone">Senha</label>
-                    </div>
-                  </div>
-                </form>
-              </div>
-        </div>
+  <header class="header">
+    <div class="header_title">
+      Minerva-login
     </div>
+  </header>
+  <div class="body-intern">
+    <div class="card-panel">
+      <div class="header-card">
+        <div class="header-card-text">
+          Login
+        </div>
+      </div>
+      <div class="container"style="width:auto;">
+        <form class="col s12 " >
+          <div class="conteudo" style="padding: 16px 16px;">
+            <div class="input-field col s12" style="width: 458px;">
+              <i class="material-icons prefix">person_outline</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">Login</label>
+            </div>
+            <div class="input-field col s12" style="width: 458px;">
+              <i class="material-icons prefix">lock_outline</i>
+              <input id="icon_prefix" type="password" class="validate">
+              <label for="icon_telephone">Senha</label>
+            </div>
+            <div class="btn-div col s12" style="padding: 16px 0;">
+              <button class="btn waves-effect waves-light" type="submit" name="action" style="border-radius: 5px;">LOGIN
+                <i class="material-icons right">send</i> 
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
 </body>
-<footer>
+<footer class="col s12 "style="position:absolute; bottom: 0; width: 100%;">
+  <div class="page-footer" style="padding-top: 0;" >
+    <div class="container" style="padding: 8px; display: flex; justify-content: center;width: 100%;">
+      © GRUPO CERES 2021. Todos os direitos reservados.
+    </div>
 
+  </div>
 </footer>
 
 </html>
