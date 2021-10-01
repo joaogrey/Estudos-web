@@ -1,9 +1,12 @@
 body,html{
     min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
 body{
-    padding-top: 57px;
-    
+
+    height:100;
 }
 
 .header{
@@ -40,16 +43,10 @@ body{
     
     color: #FAFAFA;
 }
-.body-intern{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-}
 
 .card-panel{
     height: auto;
     width: auto;
-    margin-top: 160px;
     padding: 0;
     align-items: center;
     border-radius: 5px;
@@ -61,22 +58,19 @@ body{
 
 .header-card{
     background-color: #274059;
-    height: 76px;
+    height: 60px;
     display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     border-top-left-radius:  5px;
     border-top-right-radius:  5px;
 }
 
 .header-card-text{
     color: #FAFAFA;
-    padding: 16px o;
     font-size: 24px;
     width: 100%;
     text-align: center;
-    height: 100%;
-    padding-top: 16px;
 }
 
 .btn-primary{
